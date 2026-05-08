@@ -1,0 +1,16 @@
+name = "memo_gleam"
+version = "1.0.0"
+
+description = "A simple cross-target memoisation library"
+licences = ["MIT"]
+repository = { type = "github", user = "aDifferentJT", repo = "memo_gleam" }
+links = []
+
+# For a full reference of all the available options, you can have a look at
+# https://gleam.run/writing-gleam/gleam-toml/.
+
+[dependencies]
+gleam_stdlib = ">= 1.0.0 and < 2.0.0"
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
